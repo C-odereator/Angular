@@ -1,0 +1,24 @@
+.main{
+    height: 115vh;
+    width: 90%;
+    background-color: black;
+    display: flex;
+    margin: auto;
+}
+.left{
+    height: 100%;
+    width: 45%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right{
+    height: 100%;
+    width: 55%;
+    background-color: rebeccapurple;
+}
+.right img{
+    height: 100%;width: 100%;
+}
