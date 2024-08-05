@@ -1,22 +1,15 @@
-.main{
-    height: 115vh;
+.main {
+    height: 95vh;
     width: 90%;
     background-color: black;
     display: flex;
     margin: auto;
     color: white;
 }
-.cont {
-    height: 85vh;
-    width: 90%;
-    background-color: black;
-    display: flex;
-    margin: auto;
-    color: white;
-}
-.left{
+
+.left {
     height: 100%;
-    width: 45%;
+    width: 50%;
     background-color: #A6180D;
     display: flex;
     justify-content: center;
@@ -24,20 +17,24 @@
     flex-direction: column;
     font-size: 2.4rem;
 }
-.right{
+
+.right {
     height: 100%;
-    width: 55%;
+    width: 50%;
     background-color: rebeccapurple;
 }
-.right img{
+
+.right img {
     height: 100%;
     width: 100%;
 }
-.left p{
+
+.left p {
     font-size: 4.4rem;
     font-weight: lighter;
 }
-.left a{
+
+.left a {
     position: relative;
     right: 140px;
     top: 30px;

@@ -9,5 +9,5 @@ import { MainComponentComponent } from '../main-component/main-component.compone
   styleUrl: './main.component.css'
 })
 export class MainComponent {
-
+  school = "Stanford Elementary"
 }
