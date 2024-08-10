@@ -22,7 +22,6 @@ section{
 }
 .right{
     width: 33.33%;
-    /* background-color: red; */
     height: 100%;
 }
 .image1{
@@ -54,4 +53,21 @@ section{
     width: 90%;
     background-color:#E4F9FF;
     margin: auto;
+}
+.box svg{
+    height: 100px;
+    width: 100px;
+}
+.cards{
+    height: 150vh;
+    width: 90%;
+    background-color: #E4F9FF;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.childCards{
+    height: 75vh;
+    width: 33.33%;
 }
