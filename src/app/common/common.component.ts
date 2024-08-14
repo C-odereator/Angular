@@ -8,5 +8,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './common.component.css'
 })
 export class CommonComponent {
-  @Input() aboutData:any;
+  @Input() common:any;
 }
