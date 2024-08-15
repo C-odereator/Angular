@@ -50,7 +50,7 @@ li::marker{
     font-weight: bold;
 }
 .staffs{
-    height: 230vh;
+    height: 210vh;
     width: 90%;
     background-color: #FFD2C4;
     margin: auto;
@@ -59,6 +59,7 @@ li::marker{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 30px 0px;
 }
 .staff{
     height: 70vh;
