@@ -1,3 +1,5 @@
-<main>
-    <div class="left"></div>
-</main>
+<div class="cards" [ngStyle]="{'background-color': card.bgColor}">
+    <img [src]="card.bgImage" alt="">
+    <h1>{{ card.h1 }}</h1>
+    <p>{{ card.p }}</p>
+</div>

@@ -1,3 +1,7 @@
 <app-common [common]="common"></app-common>
 
-<app-parent-card></app-parent-card>
+<main>
+    <div class="left" *ngFor="let card of cardDetails">
+        <app-parent-card [card]="card"></app-parent-card>
+    </div>
+</main>
